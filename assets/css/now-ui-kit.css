@@ -410,7 +410,7 @@
 }
 
 .noUi-connect {
-    background: #888888;
+    background: #505460;
     border-radius: 3px;
     -webkit-transition: background 450ms;
     transition: background 450ms;
@@ -2276,7 +2276,7 @@ select.selectpicker {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.5em;
     margin: 3px;
     border-radius: 50%;
@@ -2371,7 +2371,7 @@ select.selectpicker {
     height: 20px;
     line-height: 20px;
     width: 20px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .bootstrap-datetimepicker-widget table th.picker-switch {
@@ -2440,7 +2440,7 @@ select.selectpicker {
     margin: 0 auto;
     z-index: -1;
     position: relative;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -2461,7 +2461,7 @@ select.selectpicker {
 
 .bootstrap-datetimepicker-widget table td.old>div,
 .bootstrap-datetimepicker-widget table td.new>div {
-    color: #888888;
+    color: #505460;
 }
 
 .bootstrap-datetimepicker-widget table td.today>div:before {
@@ -2669,7 +2669,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
     border-radius: 0.1875rem;
     padding: 11px 22px;
     cursor: pointer;
-    background-color: #888888;
+    background-color: #505460;
     color: #FFFFFF;
 }
 
@@ -2753,14 +2753,14 @@ fieldset[disabled] .navbar .navbar-nav>a.btn:focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn.focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn:active,
 fieldset[disabled] .navbar .navbar-nav>a.btn.active {
-    background-color: #888888;
-    border-color: #888888;
+    background-color: #505460;
+    border-color: #505460;
 }
 
 .btn.btn-simple,
 .navbar .navbar-nav>a.btn.btn-simple {
-    color: #888888;
-    border-color: #888888;
+    color: #505460;
+    border-color: #505460;
 }
 
 .btn.btn-simple:hover,
@@ -2777,7 +2777,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-link,
 .navbar .navbar-nav>a.btn.btn-link {
-    color: #888888;
+    color: #505460;
 }
 
 .btn.btn-link:hover,
@@ -3479,7 +3479,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #888888;
+    background-color: #505460;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -3957,7 +3957,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-neutral.btn-default {
-    color: #888888;
+    color: #505460;
 }
 
 .btn-neutral.btn-default:hover,
@@ -4036,7 +4036,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .btn-simple {
     border: 1px solid;
-    border-color: #888888;
+    border-color: #505460;
     padding: 10px 22px;
     background-color: transparent;
 }
@@ -4457,7 +4457,7 @@ fieldset[disabled] .btn-link.active {
 .form-control[readonly],
 fieldset[disabled] .form-control {
     background-color: #E3E3E3;
-    color: #888888;
+    color: #505460;
     cursor: not-allowed;
 }
 
@@ -4578,7 +4578,7 @@ textarea.form-control:active {
 
 .form-check.disabled .form-check-label,
 .form-check.disabled .form-check-label {
-    color: #9A9A9A;
+    color: #505460;
     opacity: .5;
     cursor: not-allowed;
 }
@@ -4643,12 +4643,12 @@ textarea.form-control:active {
 }
 
 .form-check-radio input[type="radio"]:disabled+.form-check-sign {
-    color: #9A9A9A;
+    color: #505460;
 }
 
 .form-check-radio input[type="radio"]:disabled+.form-check-sign::before,
 .form-check-radio input[type="radio"]:disabled+.form-check-sign::after {
-    color: #9A9A9A;
+    color: #505460;
 }
 
 .progress-container {
@@ -4661,7 +4661,7 @@ textarea.form-control:active {
 }
 
 .progress-container .progress-badge {
-    color: #888888;
+    color: #505460;
     font-size: 0.8571em;
     text-transform: uppercase;
 }
@@ -4676,14 +4676,14 @@ textarea.form-control:active {
 
 .progress-container .progress .progress-bar {
     box-shadow: none;
-    background-color: #888888;
+    background-color: #505460;
 }
 
 .progress-container .progress .progress-value {
     position: absolute;
     top: 2px;
     right: 0;
-    color: #888888;
+    color: #505460;
     font-size: 0.8571em;
 }
 
@@ -4790,8 +4790,8 @@ textarea.form-control:active {
 }
 
 .badge-default {
-    border-color: #888888;
-    background-color: #888888;
+    border-color: #505460;
+    background-color: #505460;
 }
 
 .badge-primary {
@@ -4870,8 +4870,8 @@ textarea.form-control:active {
 .pagination .page-item.active>.page-link,
 .pagination .page-item.active>.page-link:focus,
 .pagination .page-item.active>.page-link:hover {
-    background-color: #888888;
-    border-color: #888888;
+    background-color: #505460;
+    border-color: #505460;
     color: #FFFFFF;
 }
 
@@ -5032,8 +5032,9 @@ h6,
 
 p {
     line-height: 1.61em;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .title {
@@ -5057,14 +5058,15 @@ p {
 .description,
 .card-description,
 .footer-big p {
-    color: #9A9A9A;
-    font-weight: 300;
+    color: #505460;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
 }
 
 .category {
     text-transform: capitalize;
     font-weight: 700;
-    color: #9A9A9A;
+    color: #505460;
 }
 
 .text-primary {
@@ -5093,14 +5095,14 @@ p {
 
 .blockquote {
     border-left: none;
-    border: 1px solid #888888;
+    border: 1px solid #505460;
     padding: 20px;
     font-size: 1.1em;
     line-height: 1.8;
 }
 
 .blockquote small {
-    color: #888888;
+    color: #505460;
     font-size: 0.8571em;
     text-transform: uppercase;
 }
@@ -5199,7 +5201,7 @@ body {
 .separator-line {
     height: 2px;
     width: 44px;
-    background-color: #888888;
+    background-color: #505460;
     margin: 20px auto;
 }
 
@@ -5255,7 +5257,7 @@ body {
 .nav-pills .nav-item .nav-link.active,
 .nav-pills .nav-item .nav-link.active:focus,
 .nav-pills .nav-item .nav-link.active:hover {
-    background-color: #9A9A9A;
+    background-color: #505460;
     color: #FFFFFF;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
@@ -5341,7 +5343,7 @@ body {
 }
 
 .nav-tabs>.nav-item>.nav-link {
-    color: #888888;
+    color: #505460;
     margin: 0;
     margin-right: 5px;
     background-color: transparent;
@@ -5552,16 +5554,16 @@ body {
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
-    color: #888888;
+    color: #505460;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn).disabled {
     opacity: .5;
-    color: #888888;
+    color: #505460;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .button-bar {
-    background: #888888;
+    background: #505460;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
@@ -5572,11 +5574,11 @@ body {
 }
 
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
-    border: 1px solid #888888;
+    border: 1px solid #505460;
 }
 
 .bg-default {
-    background-color: #888888 !important;
+    background-color: #505460 !important;
 }
 
 .bg-primary {
@@ -6771,7 +6773,7 @@ Created using IcoMoon - icomoon.io
 .table>thead>tr>th {
     border-bottom-width: 1px;
     font-size: 1.3em;
-    font-weight: 300;
+    font-weight: 500;
     border: 0;
 }
 
@@ -6815,7 +6817,7 @@ Created using IcoMoon - icomoon.io
 
 .table .td-price {
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 5px;
     position: relative;
     top: 4px;
@@ -6857,13 +6859,13 @@ Created using IcoMoon - icomoon.io
 }
 
 .table-shopping .td-name small {
-    color: #9A9A9A;
+    color: #505460;
     font-size: 0.75em;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .table-shopping .td-number {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.5em;
 }
 
@@ -6955,7 +6957,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .info .icon {
-    color: #888888;
+    color: #505460;
     transition: transform .4s, box-shadow .4s;
 }
 
@@ -6986,7 +6988,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .info p {
-    color: #888888;
+    color: #505460;
     padding: 0 15px;
     font-size: 1.1em;
 }
@@ -7111,7 +7113,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .media p {
-    color: #888888;
+    color: #505460;
     font-size: 1.104em;
     line-height: 1.61em;
 }
@@ -8031,7 +8033,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card .author span {
-    color: #9A9A9A;
+    color: #505460;
 }
 
 .card .info {
@@ -8240,13 +8242,13 @@ Created using IcoMoon - icomoon.io
 
 .card-product .price {
     font-size: 16px;
-    color: #888888;
+    color: #505460;
 }
 
 .card-product .price-old {
     text-decoration: line-through;
     font-size: 16px;
-    color: #888888;
+    color: #505460;
 }
 
 .card-product .price-new {
@@ -8429,7 +8431,7 @@ Created using IcoMoon - icomoon.io
     font-size: 30px;
     line-height: 2.7;
     max-width: 80px;
-    color: #888888;
+    color: #505460;
     width: 80px;
     height: 80px;
     margin: 0 auto;
@@ -8482,7 +8484,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card-pricing ul li {
-    color: #888888;
+    color: #505460;
     text-align: center;
     padding: 12px 0;
     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
@@ -8964,7 +8966,7 @@ Created using IcoMoon - icomoon.io
 
 .product-page .main-price {
     margin: 10px 0 25px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .product-page .blockquote {
@@ -9424,7 +9426,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .blog-post .media p {
-    color: #888888;
+    color: #505460;
 }
 
 .about-us .page-header .container {
@@ -9529,7 +9531,7 @@ Created using IcoMoon - icomoon.io
 .section-image .card:not(.card-plain) .info p,
 .section-image .card:not(.card-plain) .info .icon,
 .section-image .card:not(.card-plain) .description {
-    color: #9A9A9A;
+    color: #505460;
 }
 
 .section-image .footer {
@@ -9885,7 +9887,7 @@ Created using IcoMoon - icomoon.io
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-description,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category {
-    color: #9A9A9A;
+    color: #505460;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
@@ -9952,7 +9954,7 @@ Created using IcoMoon - icomoon.io
 }
 
 [data-background-color]:not([data-background-color="gray"]) .navbar.bg-white p {
-    color: #888888;
+    color: #505460;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .description,
@@ -10410,7 +10412,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .projects-2 .category {
-    color: #888888;
+    color: #505460;
     margin-top: 5px;
 }
 
@@ -10812,7 +10814,7 @@ Created using IcoMoon - icomoon.io
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .navbar-collapse:after {
-        background: #888888;
+        background: #505460;
         background: -webkit-linear-gradient(#009ad2 0%, #000 80%);
         background: -o-linear-gradient(#009ad2 0%, #000 80%);
         background: -moz-linear-gradient(#009ad2 0%, #000 80%);
@@ -10968,7 +10970,7 @@ Created using IcoMoon - icomoon.io
         transition: width .2s linear;
     }
     .navbar.bg-white:not(.navbar-transparent) .navbar-toggler-bar {
-        background: #888888;
+        background: #505460;
     }
     .navbar .toggled .navbar-toggler-bar {
         width: 24px;
@@ -11385,11 +11387,11 @@ Created using IcoMoon - icomoon.io
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
     .burger-menu .navbar-collapse:after {
-        background: #888888;
-        background: -webkit-linear-gradient(#888888 0%, #000 80%);
-        background: -o-linear-gradient(#888888 0%, #000 80%);
-        background: -moz-linear-gradient(#888888 0%, #000 80%);
-        background: linear-gradient(#888888 0%, #000 80%);
+        background: #505460;
+        background: -webkit-linear-gradient(#505460 0%, #000 80%);
+        background: -o-linear-gradient(#505460 0%, #000 80%);
+        background: -moz-linear-gradient(#505460 0%, #000 80%);
+        background: linear-gradient(#505460 0%, #000 80%);
         opacity: 0.76;
         filter: alpha(opacity=76);
         display: block;
@@ -11541,7 +11543,7 @@ Created using IcoMoon - icomoon.io
         transition: width .2s linear;
     }
     .burger-menu .navbar.bg-white:not(.navbar-transparent) .navbar-toggler-bar {
-        background: #888888;
+        background: #505460;
     }
     .burger-menu .navbar .toggled .navbar-toggler-bar {
         width: 24px;
