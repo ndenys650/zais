@@ -8230,6 +8230,7 @@ Created using IcoMoon - icomoon.io
 .card-product .category,
 .card-product .card-description {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .card-product .category {
@@ -8328,6 +8329,7 @@ Created using IcoMoon - icomoon.io
 
 .card-testimonial .card-description+.card-title {
     margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .card-testimonial .icon i {
