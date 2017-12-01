@@ -9895,6 +9895,7 @@ Created using IcoMoon - icomoon.io
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title {
     color: initial;
+    font-family: 'Stoke', serif;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .carousel .carousel-inner {
