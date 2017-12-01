@@ -6,3 +6,13 @@ h5 {
     font-family: 'Stoke', serif;
     font-weight: 600;
 }
+
+a#call {
+    color: #007bff;
+}
+
+a#call:hover {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}

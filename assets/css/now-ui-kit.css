@@ -3982,7 +3982,7 @@ fieldset[disabled] .btn-neutral.active {
 
 .btn-neutral:hover,
 .btn-neutral:focus {
-    color: #fa7a50;
+    color: #2c2c2c;
 }
 
 .btn-neutral:hover:not(.nav-link),
