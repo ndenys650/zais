@@ -154,7 +154,7 @@
             <div class="card card-contact card-raised">
                 <form role="form" id="contact-form" method="post">
                     <div class="card-header text-center">
-                        <h3 class="card-title">ASEL & AMEL Quote Sheet</h3>
+                        <h3 class="card-title">Aviation Property Quote</h3>
                         <h5 class="card-title">Contact Information</h>
                     </div>
                     <div class="card-body">
@@ -226,6 +226,15 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 pr-2">
+                                <label>Mailing Address</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons users_circle-08"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Phone Number...">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pr-2">
                                 <label>City</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
@@ -234,20 +243,10 @@
                                     <input type="text" class="form-control" placeholder="Phone Number...">
                                 </div>
                             </div>
-                            <div class="col-md-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">State</label>
-                                <br>
-                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>Choose...</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 pr-2">
-                                <label>Zip:</label>
+                                <label>State:</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="now-ui-icons users_circle-08"></i>
@@ -256,7 +255,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 pl-2">
-                                <label>Occupation</label>
+                                <label>Zip</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="now-ui-icons users_circle-08"></i>
@@ -267,16 +266,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 pr-2">
-                                <label>AOPA Membership #:</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="now-ui-icons users_circle-08"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                            <div class="col-md-6 pl-2">
-                                <label>EAA Membership #:</label>
+                                <label>Occupation:</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         <i class="now-ui-icons users_circle-08"></i>
@@ -285,228 +275,110 @@
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="card-header text-center">
-                            <h5 class="card-title">Aircraft Information</h>
+                            <h5 class="card-title">Property Information</h>
                         </div>
+                        <div class="row">
+                            <div class="col-md-6 pr-2">
+                                <label>Airport Name:</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons users_circle-08"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Phone Number...">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pr-2">
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Aircraft Fenced:</label>
+                                <br>
+                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                    <option selected>Yes</option>
+                                    <option value="1">No</option>
 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 pr-2">
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Fire Department on Airport:</label>
+                                <br>
+                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                    <option selected>Yes</option>
+                                    <option value="1">No</option>
 
-                        <div class="row">
-                            <div class="col-md-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Aircraft is registered in:</label>
-                                <br>
-                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>My Personal Name</option>
-                                    <option value="1">Company or Business Name</option>
-                                    <option value="2">Holding Corp or LLC</option>
                                 </select>
                             </div>
                             <div class="col-md-6 pr-2">
-                                <label>Specify Company Name (if applicable)</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Last Name...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 pr-2">
-                                <label>N #:</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                            <div class="col-md-6 pl-2">
-                                <label>Year:</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 pr-2">
-                                <label>Aircraft Make</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="email" placeholder="Email Here..." class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6 pr-2">
-                                <label>Aircraft Model</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="email" placeholder="Email Here..." class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 pr-2">
-                                <label>Number of Seats</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                            <div class="col-md-6 pr-2">
-                                <label>Aircraft Based - Airport Name</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 pr-2">
-                                <label>Aircraft Based - Airport Identifier</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
-                                </div>
-                            </div>
-                            <div class="col-md-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Aircraft Stored:</label>
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Sprinkler System:</label>
                                 <br>
                                 <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>Hangared</option>
-                                    <option value="1">Tied Down</option>
+                                    <option selected>Yes</option>
+                                    <option value="1">No</option>
+
                                 </select>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Current Insurance Company:</label>
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Tower:</label>
                                 <br>
                                 <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>New Purchase</option>
-                                    <option value="1">AIG</option>
-                                    <option value="2">AIG</option>
-                                    <option value="3">AIG</option>
-                                    <option value="4">AIG</option>
-                                    <option value="5">AIG</option>
-                                    <option value="6">AIG</option>
-                                    <option value="7">AIG</option>
-                                    <option value="8">AIG</option>
-                                    <option value="9">Other</option>
+                                    <option selected>Yes</option>
+                                    <option value="1">No</option>
                                 </select>
-                                <label>If other, which company?</label>
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-plane" aria-hidden="true"></i>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Phone Number...">
+                                <div class="col">
+                                    <label>If Yes, Hours:</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="now-ui-icons users_circle-08"></i>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Phone Number...">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Current Policy Expiration Date:</label>
+                            <div class="col-md-6 pr-2">
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Hangar:</label>
                                 <br>
                                 <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>Specific Date (pick below)</option>
-                                    <option value="1">New Purchase</option>
-                                    <option value="2">Within 90 days</option>
-                                    <option value="2">Over 90 days</option>
+                                    <option selected>Yes</option>
+                                    <option value="1">No</option>
                                 </select>
-                                <div class="col-lg-6 col-xl-6 mx-auto">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control datetimepicker" value="10/05/2016">
+                                <div class="col">
+                                    <label>If Yes, Describe:</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="now-ui-icons users_circle-08"></i>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Phone Number...">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card-header text-center">
-                            <h5 class="card-title">Aircraft Coverage Information</h>
-                        </div>
-
-
                         <div class="row">
-                            <div class="col-md-12 ">
-                                <p class="category">Liability Limits (select 1 or more)</p>
-                                <div class="form-check text-left">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" checked>
-                                        <span class="form-check-sign"></span>
-                                        $1,000,000 per Occurrence limited to $100,000 per passenger
-                                    </label>
-                                </div>
-                                <div class="form-check text-left">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" checked>
-                                        <span class="form-check-sign"></span>
-                                        $1,000,000 Combined Single Limit (CSL) per occurance including passengers
-                                    </label>
-                                </div>
-                                <div class="form-check text-left">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox">
-                                        <span class="form-check-sign"></span>
-                                        $2,000,000 Combined Single Limit (CSL) per occurance including passengers
-                                    </label>
-                                </div>
-                                <div class="form-check text-left">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox">
-                                        <span class="form-check-sign"></span>
-                                        Other:
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="">
-                                        </div>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-md-6">
-                                <label>Insured Value</label>
+                            <div class="col-md-6 pr-2">
+                                <label>Occupancy (Type of Contents kept in Building):</label>
                                 <div class="input-group">
-
-                                    <input type="text" class="form-control" placeholder="">
+                                    <span class="input-group-addon">
+                                        <i class="now-ui-icons users_circle-08"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Phone Number...">
                                 </div>
                             </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-12">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Aircraft Usage</label>
+                            <div class="col-md-6 pr-2">
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Does Coverage include Fuel Tanks:</label>
                                 <br>
                                 <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                    <option selected>Pleasure & Business Only - Owner Flown</option>
-                                    <option value="1">Part 91 - Pro-Pilot Flown</option>
-                                    <option value="2">Part 135 - On Demand Charter</option>
-                                    <option value="3">Commercial Flight Instruction</option>
-                                    <option value="4">Rental & Instruction</option>
-                                    <option value="5">Other - List other usages in the Comments Section</option>
+                                    <option selected>Yes - above ground</option>
+                                    <option selected>Yes - underground</option>
+                                    <option value="1">Fuel Tank(s) not included</option>
                                 </select>
                             </div>
                         </div>
-                        <br>
-
                         <div class="card-header text-center">
-                            <h5 class="card-title">Pilot Information</h>
+                            <h5 class="card-title">Property Description & Coverage Schedule</h>
                         </div>
-
                         <div class="row">
-
-                            <div class="col-md-8 ml-auto mr-auto">
-
+                            <div class="col ml-auto mr-auto">
                                 <div class="card card-plain">
                                     <div class="card-body">
                                         <div class="table-responsive">
@@ -515,116 +387,95 @@
                                                     <th>
                                                     </th>
                                                     <th>
-                                                        Pilot #1
+                                                        Building #1
                                                     </th>
                                                     <th>
-                                                        Pilot #2
+                                                        Building #2
                                                     </th>
                                                     <th>
-                                                        Pilot #3
-                                                    </th>
-                                                    <th>
-                                                        Pilot #4
+                                                        Building #3
                                                     </th>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <td class="text-center">
-                                                            Name
+                                                            Description
                                                         </td>
                                                         <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
+                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                                                <option selected>Hangar</option>
+                                                                <option value="1">Office</option>
+                                                                <option value="2">Office & Hangar</option>
+                                                                <option value="3">Warehouse</option>
+                                                                <option value="4">Fuel Island</option>
+                                                                <option value="5">Other</option>
+                                                            </select>
                                                         </td>
                                                         <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
+                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                                                <option selected>Hangar</option>
+                                                                <option value="1">Office</option>
+                                                                <option value="2">Office & Hangar</option>
+                                                                <option value="3">Warehouse</option>
+                                                                <option value="4">Fuel Island</option>
+                                                                <option value="5">Other</option>
+                                                            </select>
                                                         </td>
                                                         <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
+                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                                                <option selected>Hangar</option>
+                                                                <option value="1">Office</option>
+                                                                <option value="2">Office & Hangar</option>
+                                                                <option value="3">Warehouse</option>
+                                                                <option value="4">Fuel Island</option>
+                                                                <option value="5">Other</option>
+                                                            </select>
                                                         </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-
                                                     </tr>
                                                     <tr>
                                                         <td class="text-center">
-                                                            Age
+                                                            Building Value
                                                         </td>
                                                         <td>
                                                             <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
+                                                                <input type="number" class="form-control" placeholder="">
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
+                                                                <input type="number" class="form-control" placeholder="">
                                                             </div>
                                                         </td>
                                                         <td>
                                                             <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
+                                                                <input type="number" class="form-control" placeholder="">
                                                             </div>
                                                         </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-
                                                     </tr>
                                                     <tr>
                                                         <td class="text-center">
-                                                            License
+                                                            Year Built
                                                         </td>
                                                         <td>
-                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                                                <option selected>Private</option>
-                                                                <option value="1">Commercial</option>
-                                                                <option value="2">ATP</option>
-                                                                <option value="3">Student</option>
-                                                                <option value="4">Sport</option>
-                                                            </select>
+                                                            <div class="input-group">
+                                                                <input type="number" class="form-control" placeholder="">
+                                                            </div>
                                                         </td>
                                                         <td>
-                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                                                <option selected>Private</option>
-                                                                <option value="1">Commercial</option>
-                                                                <option value="2">ATP</option>
-                                                                <option value="3">Student</option>
-                                                                <option value="4">Sport</option>
-                                                            </select>
+                                                            <div class="input-group">
+                                                                <input type="number" class="form-control" placeholder="">
+                                                            </div>
                                                         </td>
                                                         <td>
-                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                                                <option selected>Private</option>
-                                                                <option value="1">Commercial</option>
-                                                                <option value="2">ATP</option>
-                                                                <option value="3">Student</option>
-                                                                <option value="4">Sport</option>
-                                                            </select>
+                                                            <div class="input-group">
+                                                                <input type="number" class="form-control" placeholder="">
+                                                            </div>
                                                         </td>
-                                                        <td>
-                                                            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                                                <option selected>Private</option>
-                                                                <option value="1">Commercial</option>
-                                                                <option value="2">ATP</option>
-                                                                <option value="3">Student</option>
-                                                                <option value="4">Sport</option>
-                                                            </select>
-                                                        </td>
-
                                                     </tr>
+
                                                     <tr>
                                                         <td class="text-center">
-                                                            Ratings
+                                                            Year
                                                         </td>
                                                         <td>
                                                             <div class="row">
@@ -680,430 +531,332 @@
                                                                     </label>
                                                                 </div>
                                                             </div>
-                                        </div>
-                                        </td>
-                                        <td>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
+                                                        </td>
+                                                        <td>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
                                                                             <input class="form-check-input" type="checkbox">
                                                                             <span class="form-check-sign"></span>
                                                                             ME
                                                                         </label>
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="form-check text-left">
-                                                        <label class="form-check-label">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
                                                                             <input class="form-check-input" type="checkbox">
                                                                             <span class="form-check-sign"></span>
                                                                             IFR
                                                                         </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-check text-left">
-                                                        <label class="form-check-label">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
                                                                             <input class="form-check-input" type="checkbox">
                                                                             <span class="form-check-sign"></span>
                                                                             CFI
                                                                         </label>
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="form-check text-left">
-                                                        <label class="form-check-label">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
                                                                             <input class="form-check-input" type="checkbox">
                                                                             <span class="form-check-sign"></span>
                                                                             RW
                                                                         </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="form-check text-left">
-                                                        <label class="form-check-label">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
                                                                             <div class="col-md-12">
                                                                                 <label>Other:</label>
-                                                        <div class="input-group">
-                                                            <input type="email" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                    </label>
-                                                </div>
-                                            </div>
+                                                                        <div class="input-group">
+                                                                            <input type="email" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input class="form-check-input" type="checkbox">
+                                                                            <span class="form-check-sign"></span>
+                                                                            ME
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
+                                                                            <input class="form-check-input" type="checkbox">
+                                                                            <span class="form-check-sign"></span>
+                                                                            IFR
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
+                                                                            <input class="form-check-input" type="checkbox">
+                                                                            <span class="form-check-sign"></span>
+                                                                            CFI
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
+                                                                            <input class="form-check-input" type="checkbox">
+                                                                            <span class="form-check-sign"></span>
+                                                                            RW
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                    <div class="form-check text-left">
+                                                                        <label class="form-check-label">
+                                                                            <div class="col-md-12">
+                                                                                <label>Other:</label>
+                                                                        <div class="input-group">
+                                                                            <input type="email" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in all aircraft
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in Make & Model to be insured
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in Retractable-Gear aircraft
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in Multi-Engine aircraft
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in Tailwheel Aircrfat
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Date of Last Medical Certificate
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Total Hours in Last 12 Months
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Date of Last BFR
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="">
+                                                            </div>
+                                                        </td>
+
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
-                                    </td>
-                                    <td>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            ME
-                                                                        </label>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-check text-left">
-                                                    <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            IFR
-                                                                        </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="form-check text-left">
-                                                    <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            CFI
-                                                                        </label>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-check text-left">
-                                                    <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            RW
-                                                                        </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="form-check text-left">
-                                                    <label class="form-check-label">
-                                                                            <div class="col-md-12">
-                                                                                <label>Other:</label>
-                                                    <div class="input-group">
-                                                        <input type="email" class="form-control">
-                                                    </div>
-                                                </div>
-                                                </label>
-                                            </div>
-                                        </div>
                                 </div>
-                                </td>
-                                <td>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            ME
-                                                                        </label>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="form-check text-left">
-                                                <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            IFR
-                                                                        </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="form-check text-left">
-                                                <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            CFI
-                                                                        </label>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="form-check text-left">
-                                                <label class="form-check-label">
-                                                                            <input class="form-check-input" type="checkbox">
-                                                                            <span class="form-check-sign"></span>
-                                                                            RW
-                                                                        </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="form-check text-left">
-                                                <label class="form-check-label">
-                                                                            <div class="col-md-12">
-                                                                                <label>Other:</label>
-                                                <div class="input-group">
-                                                    <input type="email" class="form-control">
-                                                </div>
-                                            </div>
-                                            </label>
-                                        </div>
-                                    </div>
                             </div>
-                            </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in all aircraft
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Have any pilots listed above had any aircraft accidents, incidents, DUIs, FAA violations, license
+                            suspensions, or medical waivers (other than corrective lenses or color blindness)?</label>
+                                <br>
+                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                            <option selected>No</option>
+                            <option value="1">Yes - please provide in comments: Date of Loss, Description, Cost of Claim</option>
 
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in Make & Model to be insured
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
 
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in Retractable-Gear aircraft
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
+                        </select>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="title">
+                                    <h4>Comments</h4>
+                                </div>
+                                <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="title">
+                                    <h4>Additional information you would like to include:</h4>
+                                    <p>(include any Recurrent Training Courses completed or Date of Last IPC/ICC, Type Ratings, etc.)</p>
+                                </div>
+                                <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
+                            </div>
+                        </div>
 
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in Multi-Engine aircraft
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
 
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in Tailwheel Aircrfat
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Date of Last Medical Certificate
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Total Hours in Last 12 Months
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    Date of Last BFR
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </td>
-                            </tr>
-                            </tbody>
-                            </table>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <button type="submit" class="btn btn-primary btn-round">Send Message</button>
+                            </div>
                         </div>
                     </div>
+                </form>
             </div>
         </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <label class="mr-sm-2" for="inlineFormCustomSelectPref">Have any pilots listed above had any aircraft accidents, incidents, DUIs, FAA violations, license suspensions, or medical waivers (other than corrective lenses or color blindness)?</label>
-            <br>
-            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                                        <option selected>No</option>
-                                        <option value="1">Yes - please provide in comments: Date of Loss, Description, Cost of Claim</option>
-                                    
-                                   
-                                    </select>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="title">
-                <h4>Comments</h4>
-            </div>
-            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="title">
-                <h4>Additional information you would like to include:</h4>
-                <p>(include any Recurrent Training Courses completed or Date of Last IPC/ICC, Type Ratings, etc.)</p>
-            </div>
-            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
-        </div>
-    </div>
-
-
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <button type="submit" class="btn btn-primary btn-round">Send Message</button>
-        </div>
-    </div>
-    </div>
-    </form>
-    </div>
-    </div>
     </div>
 
     <div class="container">
@@ -1195,18 +948,18 @@
                 <ul>
                     <li>
                         <a href="index.html">
-                            Zanette Aviation
-                        </a>
+                                        Zanette Aviation
+                                    </a>
                     </li>
                     <li>
                         <a href="./more/contact.html">
-                            About Us
-                        </a>
+                                        About Us
+                                    </a>
                     </li>
                     <li>
                         <a href="./more/blog.html">
-                            Blog
-                        </a>
+                                        Blog
+                                    </a>
                     </li>
                 </ul>
             </nav>
