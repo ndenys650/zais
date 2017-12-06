@@ -283,7 +283,7 @@
                                 <label>Airport Name:</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
-                                        <i class="now-ui-icons users_circle-08"></i>
+                                            <i class="fa fa-building" aria-hidden="true"></i>
                                     </span>
                                     <input type="text" class="form-control" placeholder="Phone Number...">
                                 </div>
@@ -330,7 +330,7 @@
                                     <label>If Yes, Hours:</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">
-                                            <i class="now-ui-icons users_circle-08"></i>
+                                                <i class="fa fa-building" aria-hidden="true"></i>
                                         </span>
                                         <input type="text" class="form-control" placeholder="Phone Number...">
                                     </div>
@@ -347,7 +347,7 @@
                                     <label>If Yes, Describe:</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">
-                                            <i class="now-ui-icons users_circle-08"></i>
+                                                <i class="fa fa-building" aria-hidden="true"></i>
                                         </span>
                                         <input type="text" class="form-control" placeholder="Phone Number...">
                                     </div>
@@ -356,18 +356,18 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 pr-2">
-                                <label>Occupancy (Type of Contents kept in Building):</label>
+                                <label>Occupancy<br>(Type of Contents kept in Building):</label>
                                 <div class="input-group">
                                     <span class="input-group-addon">
-                                        <i class="now-ui-icons users_circle-08"></i>
+                                            <i class="fa fa-building" aria-hidden="true"></i>
                                     </span>
                                     <input type="text" class="form-control" placeholder="Phone Number...">
                                 </div>
                             </div>
                             <div class="col-md-6 pr-2">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Does Coverage include Fuel Tanks:</label>
+                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Does Coverage include Fuel Tanks?</label>
                                 <br>
-                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                <select class="custom-select mx-auto" id="inlineFormCustomSelectPref">
                                     <option selected>Yes - above ground</option>
                                     <option selected>Yes - underground</option>
                                     <option value="1">Fuel Tank(s) not included</option>
@@ -375,32 +375,29 @@
                             </div>
                         </div>
                         <div class="card-header text-center">
-                            <h5 class="card-title">Property Description & Coverage Schedule</h>
+                            <h5 class="card-title">Property Description & Coverage Schedule</h5>
                         </div>
-                        <div class="row">
-                            <div class="col ml-auto mr-auto">
-                                <div class="card card-plain">
-                                    <div class="card-body">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead class="text-center mx-auto">
-                                                    <th>
-                                                    </th>
-                                                    <th>
-                                                        Building #1
-                                                    </th>
-                                                    <th>
-                                                        Building #2
-                                                    </th>
 
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Description
-                                                        </td>
-                                                        <td>
-                                                            <select class="custom-select mx-auto" id="inlineFormCustomSelectPref">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="text-center mx-auto">
+                                    <th>
+                                    </th>
+                                    <th>
+                                        Building #1
+                                    </th>
+                                    <th>
+                                        Building #2
+                                    </th>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">
+                                            Description
+                                        </td>
+                                        <td>
+                                            <select class="custom-select pull-left mx-auto" id="inlineFormCustomSelectPref">
                                                                 <option selected>Hangar</option>
                                                                 <option value="1">Office</option>
                                                                 <option value="2">Office & Hangar</option>
@@ -408,9 +405,9 @@
                                                                 <option value="4">Fuel Island</option>
                                                                 <option value="5">Other</option>
                                                             </select>
-                                                        </td>
-                                                        <td>
-                                                            <select class="custom-select mx-auto" id="inlineFormCustomSelectPref">
+                                        </td>
+                                        <td>
+                                            <select class="custom-select pull-left mx-auto" id="inlineFormCustomSelectPref">
                                                                 <option selected>Hangar</option>
                                                                 <option value="1">Office</option>
                                                                 <option value="2">Office & Hangar</option>
@@ -418,211 +415,369 @@
                                                                 <option value="4">Fuel Island</option>
                                                                 <option value="5">Other</option>
                                                             </select>
-                                                        </td>
+                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Building Value
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group mx-auto">
-                                                                <input type="number" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group mx-auto">
-                                                                <input type="number" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Building Value
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                        </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Year Built
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="number" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="number" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in all aircraft
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in Make & Model to be insured
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Year Built
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Area In Square Feet
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Your Business Personal Property
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in Retractable-Gear aircraft
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in Multi-Engine aircraft
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in Tailwheel Aircrfat
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Personal Property of Others
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
 
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Date of Last Medical Certificate
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Employee Tools
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Mobile Equipment
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Total Hours in Last 12 Months
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
 
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-center">
-                                                            Date of Last BFR
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Fuel Tanks
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
 
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Flood
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Misc. Coverages
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                        </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                                                                        </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="card-header text-center">
+                            <h5 class="card-title">Prior Insurance (Last 3 Years)</h5>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">
+                                            Policy Term
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Name of Company:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Policy Number:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Premium:
+
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                                    </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Policy Term
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Name of Company:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Policy Number:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Premium:
+
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                        <i class="fa fa-usd" aria-hidden="true"></i>
+                                                        </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">
+                                            Policy Term
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Name of Company:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Policy Number:
+
+                                            <div class="input-group mx-auto">
+
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            Premium:
+
+                                            <div class="input-group mx-auto">
+                                                <span class="input-group-addon">
+                                                            <i class="fa fa-usd" aria-hidden="true"></i>
+                                                            </span>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-md-12">
-                                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Have any pilots listed above had any aircraft accidents, incidents, DUIs, FAA violations, license
-                            suspensions, or medical waivers (other than corrective lenses or color blindness)?</label>
-                                <br>
-                                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
-                            <option selected>No</option>
-                            <option value="1">Yes - please provide in comments: Date of Loss, Description, Cost of Claim</option>
-
-
-                        </select>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-12">
+                            <div class="col">
                                 <div class="title">
-                                    <h4>Comments</h4>
+                                    <h4>Loss Details</h4>
                                 </div>
                                 <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
                             </div>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="col-md-12">
+                            <div class="col">
                                 <div class="title">
-                                    <h4>Additional information you would like to include:</h4>
-                                    <p>(include any Recurrent Training Courses completed or Date of Last IPC/ICC, Type Ratings, etc.)</p>
+                                    <h4>Additional Comments</h4>
                                 </div>
                                 <textarea class="form-control" name="name" rows="4" cols="80" placeholder="You can write your text here..."></textarea>
                             </div>
                         </div>
 
-
                         <div class="row justify-content-center">
-                            <div class="col-md-8">
+                            <div class="col">
                                 <button type="submit" class="btn btn-primary btn-round">Send Message</button>
                             </div>
                         </div>
